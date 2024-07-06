@@ -1,0 +1,31 @@
+{
+    "name": "github-timeline",
+    "version": "1.0.0",
+    "description": "An application to track user activity on GitHub",
+    "scripts": {
+        "start": "vite",
+        "build": "tsc && vite build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "svetlanael12",
+    "license": "ISC",
+    "dependencies": {
+        "@emotion/react": "11.11.4",
+        "@emotion/styled": "11.11.5",
+        "@mui/material": "5.16.0",
+        "@mui/x-charts": "7.9.0",
+        "axios": "1.7.2",
+        "mobx": "6.13.0",
+        "mobx-react-lite": "4.0.7",
+        "react": "17.0.0",
+        "react-dom": "17.0.0"
+    },
+    "devDependencies": {
+        "@types/react": "17.0.0",
+        "@types/react-dom": "17.0.0",
+        "typescript": "4.1.2",
+        "vite": "1.0.0-rc.13",
+        "vite-plugin-react": "4.0.0"
+    }
+}
